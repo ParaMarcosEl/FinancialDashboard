@@ -4,31 +4,31 @@ A modern stock tracking dashboard built with **Next.js**, **Prisma**, and **Rech
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Authentication
+### Authentication
 - Sign up with email and password
 - Sign in with credentials or **GitHub OAuth**
 - User session handled via **NextAuth**
 - User data persisted with **PostgreSQL + Prisma**
 
-### 📈 Stock Dashboard
+### Stock Dashboard
 - Search for any stock symbol (e.g., `AAPL`)
 - View daily historical stock chart via **Polygon.io**
 - Save favorite symbols to your personal dashboard
 - Real-time stock charts rendered with **Recharts**
 
-### 🧠 State Management
+### State Management
 - **Redux Toolkit** for global state:
   - User session
   - Saved symbols
   - Alerts
 
-### 🔔 Alert System
+### Alert System
 - Global alerts for user actions (e.g., login, logout, fetch errors)
 - Alerts auto-dismiss after a few seconds or can be closed manually
 
-### 🛡️ Route Protection
+### Route Protection
 - Auth-required pages are protected via a **Redirector** component
 - Unauthorized users are redirected and shown alert messages
 
@@ -73,7 +73,7 @@ A modern stock tracking dashboard built with **Next.js**, **Prisma**, and **Rech
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### 1. Clone the Repo
 
@@ -111,7 +111,7 @@ npm run dev
 # or
 yarn dev
 ```
-🧪 Smart Contract Development
+Smart Contract Development
 Navigate to the /contracts directory:
 ```bash
 cd contracts
@@ -127,7 +127,7 @@ This generates the ABI and contract address for frontend use.
 
 ---
 
-✨ Deployment
+Deployment
 This app is deployed on [Vercel](https://nextauth-google-lake.vercel.app).
 
-Make sure to set the same environment variables in your Vercel project settings.
+Make sure to set the same environment variables in your Vercel project settings..
